@@ -1,0 +1,57 @@
+/* Blank stylesheet */
+
+body {
+  background-color: lightblue;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #003366; /* dark blue */
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #666666; /* darker grey */
+}
+
+p {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* Card styles */
+.card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.card img {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.card ul li {
+  margin: 10px 0;
+}
